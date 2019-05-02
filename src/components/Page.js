@@ -16,7 +16,7 @@ export default class Page extends Component {
       <h3>{year} год</h3>
       {
         fetching ?
-          <p>Загрузка...</p>
+          <p>ЗагрузкаАААААААААААА...</p>
           :
           <p>У тебя {photos.length} фото.</p>
       }
